@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700&display=swap');
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body{
+  font-family: 'Inter', sans-serif;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #F5F7FA;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  scrollbar-width: none;
+}
+
+.side-bar::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+  border-radius: 100px;
+}
+
+.side-bar::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px #0000004d;
+}
+
+.side-bar::-webkit-scrollbar-thumb {
+  height: 4px;
+  border-radius: 50px;
+  background: #353535;
+  outline: 1px solid rgba(112, 128, 144, 0.349);
+}
+
+.side-bar::-webkit-scrollbar-thumb:hover {
+  background: #232323;
+}
+
+ .skyBlue{
+  color: #57b6f0;
+ }
+ .primaryBlue{
+  background-color: #4a86f7;
+ }
+ .gradientBlue{
+  background-image: linear-gradient(to right,  #4a86f7, #2448b1);
+ }
+ .blue{
+  color: #3E70DC;
+ }
+ .green{
+  color: #83bf6e;
+ }
+ .gradientGreen{
+  background-image: linear-gradient(to right, #73bc78, #438a62);
+ }
+ .red{
+  color: #d94841;
+ }
+ .title{
+  color: #35353d;
+ }
+ .body{
+  color: #6a7185;
+ }
+ .background{
+  color: #f5f7fa;
+ }
